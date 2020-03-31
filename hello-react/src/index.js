@@ -1,21 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+/*eslint-disable*/
 // import App from './hello';
 import Index from './Index.jsx'
 import CommentApp from './CommentApp'
 import * as serviceWorker from './serviceWorker';
 import Card from './Card'
+import HookRoot from './Hook'
 ReactDOM.render(
   <React.StrictMode>
-    <Index/>
+    <HookRoot/>
+    {/* <Index/> */}
     {/* <App /> */}
-    <CommentApp />
-    <Card>
-    <h2>React.js 小书</h2>
-    <div>dduu</div>
-    订阅：<input />
-    </Card>
+    {/* <CommentApp /> */}
+    {/* <Card> */}
+    {/* <h2>React.js 小书</h2> */}
+    {/* <div>dduu</div> */}
+    {/* 订阅：<input /> */}
+    {/* </Card> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
